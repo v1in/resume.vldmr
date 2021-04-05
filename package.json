@@ -1,0 +1,62 @@
+{
+  "name": "jsonresume-theme-even-personal",
+  "version": "0.0.1",
+  "description": "Vladimir Vo's resume",
+  "homepage": "https://github.com/v1in/jsonresume-theme-even-personal",
+  "bugs": {
+    "url": "https://github.com/v1in/jsonresume-theme-even-personal/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/v1in/jsonresume-theme-even-personal"
+  },
+  "license": "MIT",
+  "author": "Vladimir Vo",
+  "bin": {
+    "jsonresume-theme-even-personal": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "index.js",
+    "resume.hbs",
+    "partials/*.hbs",
+    "style.css"
+  ],
+  "keywords": [
+    "cv",
+    "json",
+    "pdf",
+    "resume",
+    "curriculum-vitae"
+  ],
+  "scripts": {
+    "build:html": "mkdir -p public && cat resume.json | ./bin/cli.js > public/index.html",
+    "build:assets": "cp _redirects avatar.png favicon.ico public",
+    "export:pdf": "puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format A4 print public/index.html public/resume.pdf",
+    "build": "npm run cleanup && npm-run-all build:* && npm run export:pdf",
+    "format": "prettier --ignore-path .gitignore --write .",
+    "cleanup": "rm -rf public",
+    "validate": "resumed validate"
+  },
+  "dependencies": {
+    "feather-icons": "^4.28.0",
+    "handlebars": "^4.7.0",
+    "micromark": "^2.11.0",
+    "resumed": "^1.0.0",
+    "striptags": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "7.21.0",
+    "husky": "5.1.3",
+    "lint-staged": "10.5.4",
+    "npm-run-all": "^4.1.5",
+    "prettier": "2.2.1",
+    "puppeteer": "^2.0.0",
+    "resume-schema": "1.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}

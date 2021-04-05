@@ -1,0 +1,180 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "lastModified": ""
+  },
+  "basics": {
+    "name": "Vladimir Volokhin",
+    "label": "CSS / Frontend developer",
+    "image": "avatar.png",
+    "email": "uvalokhin@gmail.com",
+    "phone": "+48577436307",
+    "url": "https://vldmr.website/",
+    "summary": "Summary experience 3+ years. Extremely good in css and not only:) \n\n :Proactive problem solver \n\n :Passion for great product design \n\n :Attention to detail \n\n :Interest and experiment with new technologies",
+    "location": {
+      "city": "Wroclaw",
+      "countryCode": "PL"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "vladimirvo",
+        "url": "https://www.linkedin.com/in/vladimirvo/"
+      },
+      {
+        "network": "Github",
+        "username": "v1in",
+        "url": "https://github.com/v1in/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Skywind Group",
+      "highlights": [],
+      "position": "Frontend Developer",
+      "startDate": "2020-09-30",
+      "summary": "We create web applications in the gaming industry.\n\n- Building websites (company website was built from scratch)\n- Developed new tools\n- Building custom user interfaces\n- Worked on improving web app performance\n- Cross-browser testing and bottleneck detection\n- Taking care of old browsers [UC Browser, Edge]\n\n Project #1 - Web app\n\n Team: 4+ \n\n Position: Frontend developer \n\n Current stack:\n- Web components way\n- Typescript, React, Hooks, Next-js\n- JSX, CSS-in-JS, CSS modules, SCSS\n- ESLint, Prettier\n- Cross-browser responsive layout\n- Jira, Bitbucket\n- Experience with Next-js\n- Experience with StoryBook\n\n Project #2 - Web app \n\n Team: 7+ \n\n Position: CSS dev/Frontend dev \n\n Current stack: \n- JS/TS, React/JSX, Hooks \n- CSS-in-JS, SCSS, CSS animations\n- Cross-browser responsive layout\n- ESLint, Prettier\n- Jira, Bitbucket\n- Experience with Handlebars\n\nProject #3 - Creating and support of a corporate website - [skywindgroup.com](https://www.skywindgroup.com/) \n\n Team: 2\n\n Position: CSS dev/Fronted dev \n\n Current stack: \n- Valid HTML5, BEM methodology\n- CSS-in-JS, SCSS\n- CSS/SVG animations\n- Cross-browser responsive layout\n- Gulp, Git\n- Experience with Sanity\n- Experience in creating valid html email templates",
+      "url": "https://www.skywindgroup.com/"
+    },
+    {
+      "name": "Skywind Group",
+      "highlights": [],
+      "position": "HTML dev | Junior Frontend Developer",
+      "startDate": "2019-04-15",
+      "summary": "My responsibilities\n Work on company projects. Development of new and support for existing corporate sites.\n\n Used: \n- Valid HTML/CSS \n- BEM methodology \n- Cross-browser adaptive layout \n- SCSS/CSS animations \n- JS/Gulp \n- Git/Bitbucket \n- Photoshop/Figma/XD",
+      "url": "https://www.skywindgroup.com/"
+    },
+    {
+      "name": "Zaochnik",
+      "highlights": [],
+      "position": "HTML dev",
+      "startDate": "2019-03-01",
+      "endDate": "2019-03-31",
+      "summary": "Worked on [Dissertatsija](https://dissertatsija.com/) project:\n- Cross-browser responsive layout HTML/CSS, used Figma\n- Subsequent code preparation for the WordPress developer \n\nUsed:\n- Valid HTML5 \n- Bem methodology \n- PostCSS/Stylelint \n- JS \n- Figma",
+      "url": "https://zaochnik.com"
+    },
+    {
+      "name": "Lionsgroup Design",
+      "startDate": "2018-09-01",
+      "endDate": "2019-07-01",
+      "position": "Co-Founder / Developer",
+      "summary": "Worked on company projects, mainly website development (from UI/UX prototype to deployment) \n- Created and optimized the main site - [lionsgroup.design](https://lionsgroup.design) \n- Hosting and deployment on Netlify \n- Web app performance and improvements",
+      "url": "https://lionsgroup.design/"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Belarusian National Technical University",
+      "area": "Information Technology",
+      "studyType": "Engineer's degree",
+      "startDate": "2015-09-01",
+      "endDate": "2019-06-30",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "IT Academy",
+      "area": "HTP Education Center",
+      "startDate": "2014-09-01",
+      "endDate": "2014-11-31",
+      "gpa": "",
+      "courses": [
+        "Functional testing. Software Testing Engineer",
+        "IT English. Level: Pre-Intermediate"
+      ]
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "English level: B2 Upper Intermediate \n\n (EF SET 60/100)",
+      "date": "2021-03-31",
+      "url": "https://www.efset.org/cert/5o6WWw",
+      "issuer": "EF Standard English Test (EF SET)"
+    },
+    {
+      "name": "Google Analytics Individual Qualification",
+      "date": "2018-12-01",
+      "issuer": "Google Analytics for Business (credential ID 26151449)"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Professional:",
+      "level": "",
+      "keywords": [
+        "HTML / JSX",
+        "JS/TS",
+        "SCSS",
+        "CSS-in-JS",
+        "CSS",
+        "BEM",
+        "Styled Components",
+        "React / Next",
+        "Git",
+        "Bitbucket",
+        "Jira",
+        "Figma/Photoshop/Adobe XD"
+      ]
+    },
+    {
+      "name": "Expertise:",
+      "level": "",
+      "keywords": [
+        "in full development, JAMStack way (build, deploy with Netlify)",
+        "with headless CMS (Sanity, Prismic)",
+        "with UI frameworks (Bootstrap, Material UI, Tailwind-css)",
+        "in creating valid HTML Email Templates"
+      ]
+    },
+    {
+      "name": "Personal:",
+      "level": "",
+      "keywords": [
+        "Research",
+        "Problem-solving",
+        "Attention to detail",
+        "Self-management",
+        "Creativity",
+        "Teamwork",
+        "Communication"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "B1 / B2 - Intermediate"
+    },
+    {
+      "language": "Polish",
+      "fluency": "A1 - elementary"
+    }
+  ],
+  "interests": [
+    {
+      "keywords": ["Product design", "User Experience"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Vladislav Bankov, QA Engineer at HireRight",
+      "reference": "I worked closely with Vladimir for over a year in the same team at Skywind. \nVladimir has interpersonal and organizational skills with the ability to work in a cross-cultural, fast-paced environment under tight deadlines.\nHe is a results-driven, strong team worker.\nVladimir always was polite and gave me a lot of good advices when I needed. \nI highly recommend him."
+    },
+    {
+      "name": "Anastasia Piskunova, QA Automation Engineer/JS developer at Skywind Group",
+      "reference": "I've been working with Vladimir on related projects for the past year. Vladimir is a hardworking, goal-oriented and highly-motivated person. He deals good with new technologies, tasks and troubleshooting. Also Vladimir is easy-to-communicate and always ready to help person. So I think every project and team will be just happy to have such a great team-player."
+    },
+    {
+      "name": "Anton Churyn, Lead Software Engineer at EIS Ltd",
+      "reference": "I had the opportunity to work with Vladimir on several projects for a total of about more than 1.5 years.\nVladimir is a very strong specialist. Works without problems under pressure, really like do what he can do best and trying do it better.\nIt was a pleasure to work with him all the time. I would definitely recommend such a specialist for a project!"
+    }
+  ]
+}

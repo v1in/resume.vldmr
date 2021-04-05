@@ -1,0 +1,5 @@
+{
+  "*.js": ["eslint --fix", "prettier --write"],
+  "resume.json": "json --in-place -e 'this.meta.lastModified=new Date().toISOString()' -f",
+  "*.{css,json,md}": "prettier --write"
+}
