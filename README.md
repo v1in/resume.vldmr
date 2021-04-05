@@ -1,4 +1,4 @@
-# jsonresume-theme-even-personal
+# resume-vldmr
 
 My personal [JSON Resume](https://jsonresume.org/) theme.
 Based on [jsonresume-theme-even](https://github.com/rbardini/jsonresume-theme-even) and [Resumed](https://github.com/rbardini/resumed).
@@ -7,7 +7,7 @@ Based on [jsonresume-theme-even](https://github.com/rbardini/jsonresume-theme-ev
 - Add avatar 🧔🏻
 - Add PDF export 📄
 
-[View demo →]()
+[View demo →](https://resume-vldmr.netlify.app/)
 
 ## Files for changes
 
@@ -50,3 +50,8 @@ I use for this Puppeteer-CLI to make a PDF from my HTML resume
 ```console
 npm run build:html && npm run export:pdf
 ```
+
+## License
+
+- Code is under the [MIT License](https://opensource.org/licenses/MIT).
+- Content is under the [Creative Commons BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
