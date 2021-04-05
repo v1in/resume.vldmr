@@ -34,6 +34,7 @@
     "build": "npm run cleanup && npm-run-all build:* && npm run export:pdf",
     "format": "prettier --ignore-path .gitignore --write .",
     "cleanup": "rm -rf public",
+    "postinstall": "husky install",
     "validate": "resumed validate"
   },
   "dependencies": {
