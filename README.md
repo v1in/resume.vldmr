@@ -33,7 +33,7 @@ npm install
 Validate json resume:
 
 ```console
-npm run validate
+npm run test
 ```
 
 Prepare all files and place them in the `public` directory:
