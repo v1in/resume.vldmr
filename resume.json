@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
     "canonical": "https://raw.githubusercontent.com/v1in/resume.vldmr/master/resume.json",
-    "lastModified": "2021-04-05T23:00:47.492Z"
+    "lastModified": "2021-04-07T16:28:03.274Z"
   },
   "basics": {
     "name": "Vladimir Volokhin",
@@ -11,7 +11,7 @@
     "email": "uvalokhin@gmail.com",
     "phone": "+48577436307",
     "url": "https://vldmr.website/",
-    "summary": "Summary experience 3+ years. Extremely good in css and not only:) \n\n :Proactive problem solver \n\n :Passion for great product design \n\n :Attention to detail \n\n :Interest and experiment with new technologies",
+    "summary": "Experience 3+ years. \n\n Extremely good in css and more. A proactive problem solver with passion for great product design, attention to detail. Interested in new technologies and ready to experiment to achieve the best result.",
     "location": {
       "city": "Wroclaw",
       "countryCode": "PL"
@@ -32,19 +32,22 @@
   "work": [
     {
       "name": "Skywind Group",
-      "highlights": [],
       "position": "Frontend Developer",
       "startDate": "2020-09-30",
-      "summary": "We create web applications in the gaming industry.\n\n- Building websites (company website was built from scratch)\n- Developed new tools\n- Building custom user interfaces\n- Worked on improving web app performance\n- Cross-browser testing and bottleneck detection\n- Taking care of old browsers [UC Browser, Edge]\n\n Project #1 - Web app\n\n Team: 4+ \n\n Position: Frontend developer \n\n Current stack:\n- Web components way\n- Typescript, React, Hooks, Next-js\n- JSX, CSS-in-JS, CSS modules, SCSS\n- ESLint, Prettier\n- Cross-browser responsive layout\n- Jira, Bitbucket\n- Experience with Next-js\n- Experience with StoryBook\n\n Project #2 - Web app \n\n Team: 7+ \n\n Position: CSS dev/Frontend dev \n\n Current stack: \n- JS/TS, React/JSX, Hooks \n- CSS-in-JS, SCSS, CSS animations\n- Cross-browser responsive layout\n- ESLint, Prettier\n- Jira, Bitbucket\n- Experience with Handlebars\n\nProject #3 - Creating and support of a corporate website - [skywindgroup.com](https://www.skywindgroup.com/) \n\n Team: 2\n\n Position: CSS dev/Fronted dev \n\n Current stack: \n- Valid HTML5, BEM methodology\n- CSS-in-JS, SCSS\n- CSS/SVG animations\n- Cross-browser responsive layout\n- Gulp, Git\n- Experience with Sanity\n- Experience in creating valid html email templates",
-      "url": "https://www.skywindgroup.com/"
+      "summary": "We create web applications in the gaming industry.\n\n- Building websites and developing new tools\n- Building custom user interfaces\n- Work to improve the performance of web app\n- Cross-browser testing and bottleneck detection\n- Taking care of old browsers [UC Browser, Edge]\n\n Project #1 - Web app\n\n Team: 4+ \n\n Position: Frontend developer \n\n Tech stack:\n- Web components way\n- Typescript, React, Hooks, Next\n- JSX, CSS-in-JS, CSS modules, SCSS\n- ESLint, Prettier\n- Cross-browser responsive layout\n- Jira, Bitbucket\n\n Project #2 - Web app \n\n Team: 7+ \n\n Position: CSS dev/Frontend dev \n\n Tech stack: \n- JS/TS, React/JSX, Hooks \n- CSS-in-JS, SCSS, CSS animations\n- Cross-browser responsive layout\n- ESLint, Prettier\n- Jira, Bitbucket",
+      "url": "https://www.skywindgroup.com/",
+      "highlights": [
+        "Participated in the development of the project from scratch in another country",
+        "On one of the projects created a new redesign, which increased the number of new customers"
+      ]
     },
     {
       "name": "Skywind Group",
-      "highlights": [],
       "position": "HTML dev | Junior Frontend Developer",
       "startDate": "2019-04-15",
-      "summary": "My responsibilities\n Work on company projects. Development of new and support for existing corporate sites.\n\n Used: \n- Valid HTML/CSS \n- BEM methodology \n- Cross-browser adaptive layout \n- SCSS/CSS animations \n- JS/Gulp \n- Git/Bitbucket \n- Photoshop/Figma/XD",
-      "url": "https://www.skywindgroup.com/"
+      "summary": "Working on company projects. Development of new and support of existing corporate sites.\n\n Tech stack: \n- Valid HTML/CSS with BEM methodology \n- Cross-browser responsive layout \n- CSS-in-JS, SCSS \n- CSS animations \n- JS/Gulp \n- Git/Bitbucket \n- Photoshop/Figma/XD",
+      "url": "https://www.skywindgroup.com/",
+      "highlights": ["I built a company website from scratch"]
     },
     {
       "name": "Zaochnik",
@@ -52,7 +55,7 @@
       "position": "HTML dev",
       "startDate": "2019-03-01",
       "endDate": "2019-03-31",
-      "summary": "Worked on [Dissertatsija](https://dissertatsija.com/) project:\n- Cross-browser responsive layout HTML/CSS, used Figma\n- Subsequent code preparation for the WordPress developer \n\nUsed:\n- Valid HTML5 \n- Bem methodology \n- PostCSS/Stylelint \n- JS \n- Figma",
+      "summary": "Took part in [Dissertatsija](https://dissertatsija.com/) project:\n- Cross-browser responsive layout HTML/CSS, used Figma for design \n- Subsequent code preparation for the WordPress developer \n\nTech stack:\n- Valid HTML with BEM methodology \n- PostCSS/Stylelint \n- JS \n- Figma",
       "url": "https://zaochnik.com"
     },
     {
@@ -60,8 +63,12 @@
       "startDate": "2018-09-01",
       "endDate": "2019-07-01",
       "position": "Co-Founder / Developer",
-      "summary": "Worked on company projects, mainly website development (from UI/UX prototype to deployment) \n- Created and optimized the main site - [lionsgroup.design](https://lionsgroup.design) \n- Hosting and deployment on Netlify \n- Web app performance and improvements",
-      "url": "https://lionsgroup.design/"
+      "url": "https://lionsgroup.design/",
+      "highlights": [
+        "I brought the site to the top 3 by request - lionsgroup",
+        "Achieved full site loading speed of 0.6 s"
+      ],
+      "summary": "Working on company projects, mainly website development (from UI/UX prototype to deployment) \n- Creating and optimization of the main site - [lionsgroup.design](https://lionsgroup.design) \n- Hosting and deployment on Netlify \n- Web app performance and improvements"
     }
   ],
   "volunteer": [],
@@ -69,7 +76,7 @@
     {
       "institution": "Belarusian National Technical University",
       "area": "Information Technology",
-      "studyType": "Engineer's degree",
+      "studyType": "Bachelor's degree in Information Technology, engineer",
       "startDate": "2015-09-01",
       "endDate": "2019-06-30",
       "gpa": "",
@@ -107,28 +114,26 @@
       "name": "Professional:",
       "level": "",
       "keywords": [
-        "HTML / JSX",
+        "HTML/JSX",
+        "CSS/SCSS",
         "JS/TS",
-        "SCSS",
         "CSS-in-JS",
-        "CSS",
         "BEM",
         "Styled Components",
-        "React / Next",
-        "Git",
-        "Bitbucket",
+        "React/Next",
+        "Git/Bitbucket",
         "Jira",
-        "Figma/Photoshop/Adobe XD"
+        "Figma/Photoshop/XD"
       ]
     },
     {
       "name": "Expertise:",
       "level": "",
       "keywords": [
-        "in full development, JAMStack way (build, deploy with Netlify)",
-        "with headless CMS (Sanity, Prismic)",
-        "with UI frameworks (Bootstrap, Material UI, Tailwind-css)",
-        "in creating valid HTML Email Templates"
+        "in full development, JAMStack way (development and deployment with Netlify)",
+        "headless CMS (Sanity, Prismic)",
+        "UI frameworks (Bootstrap, Material, Tailwind)",
+        "in creation of valid HTML Email Templates"
       ]
     },
     {
