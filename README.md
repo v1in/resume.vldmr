@@ -6,6 +6,7 @@ Based on [jsonresume-theme-even](https://github.com/rbardini/jsonresume-theme-ev
 - Small UI improvements: changed accent color → 🟧
 - Add avatar 🧔🏻
 - Add PDF export 📄
+- Add direct link to download the PDF 🔗
 
 [View demo →](https://resume-vldmr.netlify.app/)
 
