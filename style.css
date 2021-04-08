@@ -197,6 +197,17 @@ blockquote > * + * {
   padding: 0;
 }
 
+.summary {
+  display: grid;
+  grid-template-areas: 'info download';
+}
+
+a[download] {
+  align-self: end;
+  justify-self: end;
+  color: var(--color-primary);
+}
+
 .grid-list {
   display: grid;
   gap: 1em;
@@ -263,5 +274,12 @@ blockquote > * + * {
 
   h2 {
     font-size: var(--scale3);
+  }
+}
+
+@media print {
+  .no-print,
+  .no-print * {
+    display: none !important;
   }
 }

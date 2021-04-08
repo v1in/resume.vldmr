@@ -1,71 +1,76 @@
 <header class="masthead">
   <div>
     {{#if image}}
-      <div class="name">
-        <div>
-          {{#name}}
-            <h1>{{.}}</h1>
-          {{/name}}
-          {{#label}}
-            <h2>{{.}}</h2>
-          {{/label}}
-        </div>
-        <img src="{{image}}" alt="{{name}}" />
-      </div>
-    {{else}}
-      {{#name}}
+    <div class="name">
+      <div>
+        {{#name}}
         <h1>{{.}}</h1>
-      {{/name}}
-      {{#label}}
+        {{/name}}
+        {{#label}}
         <h2>{{.}}</h2>
-      {{/label}}
+        {{/label}}
+      </div>
+      <img src="{{image}}" alt="{{name}}" />
+    </div>
+    {{else}}
+    {{#name}}
+    <h1>{{.}}</h1>
+    {{/name}}
+    {{#label}}
+    <h2>{{.}}</h2>
+    {{/label}}
     {{/if}}
   </div>
-  <ul class="icon-list">
-    {{#location}}
+  <div class="summary">
+    <ul class="icon-list">
+      {{#location}}
       {{#if city}}
-        <li>
-          {{{icon 'map-pin'}}}
-          {{city}}{{#countryCode}}, {{formatCountry .}}{{/countryCode}}
-        </li>
+      <li>
+        {{{icon 'map-pin'}}}
+        {{city}}{{#countryCode}}, {{formatCountry .}}{{/countryCode}}
+      </li>
       {{/if}}
-    {{/location}}
-    {{#email}}
+      {{/location}}
+      {{#email}}
       <li>
         {{{icon 'mail'}}}
         <a href="mailto:{{.}}">{{.}}</a>
       </li>
-    {{/email}}
-    {{#phone}}
+      {{/email}}
+      {{#phone}}
       <li>
         {{{icon 'phone'}}}
         <a href="tel:{{formatPhone .}}">{{.}}</a>
       </li>
-    {{/phone}}
-    {{#url}}
+      {{/phone}}
+      {{#url}}
       <li>
         {{{icon 'link'}}}
         <a href="{{.}}">{{formatURL .}}</a>
       </li>
-    {{/url}}
-    {{#profiles}}
+      {{/url}}
+      {{#profiles}}
       <li>
         {{{icon network 'user'}}}
         {{#if username}}
-          {{#if url}}
-            <a href="{{url}}">{{username}}</a>
-          {{else}}
-            {{username}}
-          {{/if}}
+        {{#if url}}
+        <a href="{{url}}">{{username}}</a>
         {{else}}
-          {{#url}}
-            <a href="{{.}}">{{formatURL .}}</a>
-          {{/url}}
+        {{username}}
+        {{/if}}
+        {{else}}
+        {{#url}}
+        <a href="{{.}}">{{formatURL .}}</a>
+        {{/url}}
         {{/if}}
         {{#network}}
-          <span class="network">({{.}})</span>
+        <span class="network">({{.}})</span>
         {{/network}}
       </li>
-    {{/profiles}}
-  </ul>
+      {{/profiles}}
+    </ul>
+    <a href="resume.pdf" download="cv-vladimir-volokhin.pdf" title="Download" class="no-print">
+      {{{icon 'download'}}}
+    </a>
+  </div>
 </header>
