@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-https://resume-vldmr.netlify.app/* https://resume.vldmr.website/:splat 301!
+# https://resume-vldmr.netlify.app/* https://resume.vldmr.website/:splat 301!
