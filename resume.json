@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
     "canonical": "https://raw.githubusercontent.com/v1in/resume.vldmr/master/resume.json",
-    "lastModified": "2021-05-16T16:18:27.745Z"
+    "lastModified": "2021-05-24T08:24:58.903Z"
   },
   "basics": {
     "name": "Vladimir Volokhin",
@@ -166,7 +166,7 @@
   ],
   "interests": [
     {
-      "keywords": ["Product design", "User Experience"]
+      "keywords": ["Product management", "Design", "User Experience"]
     }
   ],
   "references": [
