@@ -34,13 +34,13 @@
       {{#email}}
       <li>
         {{{icon 'mail'}}}
-        <a href="mailto:{{.}}">{{.}}</a>
+        <a data-splitbee-event="Click EMail" href="mailto:{{.}}">{{.}}</a>
       </li>
       {{/email}}
       {{#phone}}
       <li>
         {{{icon 'phone'}}}
-        <a href="tel:{{formatPhone .}}">{{.}}</a>
+        <a data-splitbee-event="Click Phone" href="tel:{{formatPhone .}}">{{.}}</a>
       </li>
       {{/phone}}
       {{#url}}
@@ -69,7 +69,7 @@
       </li>
       {{/profiles}}
     </ul>
-    <a href="resume.pdf" download="cv-vladimir-volokhin.pdf" title="Download" class="no-print">
+    <a data-splitbee-event="Click CV Download" href="resume.pdf" download="cv-vladimir-volokhin.pdf" title="Download" class="no-print">
       {{{icon 'download'}}}
     </a>
   </div>
