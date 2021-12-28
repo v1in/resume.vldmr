@@ -1,5 +1,7 @@
 # resume-vldmr
 
+![resume-preview](https://user-images.githubusercontent.com/43416907/147601501-0706e7d6-9aae-463d-baa7-8fabe7a82374.jpg)
+
 My personal [JSON Resume](https://jsonresume.org/) theme.
 Based on [jsonresume-theme-even](https://github.com/rbardini/jsonresume-theme-even) and [Resumed](https://github.com/rbardini/resumed).
 
