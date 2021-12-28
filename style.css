@@ -229,7 +229,6 @@ a[download] {
 
 .spaced-list > :nth-child(2) {
   order: 2;
-  white-space: nowrap;
 }
 
 .tag-list {
