@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
     "canonical": "https://raw.githubusercontent.com/v1in/resume.vldmr/master/resume.json",
-    "lastModified": "2021-12-28T16:54:07.883Z"
+    "lastModified": "2022-06-08T18:05:20.961Z"
   },
   "basics": {
     "name": "Vladimir Volokhin",
@@ -11,7 +11,7 @@
     "email": "uvalokhin@gmail.com",
     "phone": "+48577436307",
     "url": "https://vldmr.website/",
-    "summary": "Experience 3+ years. \n\n Extremely good in css and more. A proactive problem solver with passion for great product design and attention to detail. Interested in new technologies and ready to experiment to achieve the best result.",
+    "summary": "Experience 4+ years. \n\n Extremely good in css and more. A proactive problem solver with passion for great product design and attention to detail. Interested in new technologies and ready to experiment to achieve the best result.",
     "location": {
       "city": "Wroclaw",
       "countryCode": "PL"
@@ -34,7 +34,7 @@
       "name": "Skywind Group",
       "position": "Frontend Developer",
       "startDate": "2020-09-30",
-      "summary": "We create web applications in the gaming industry.\n\n- Building websites and developing new tools\n- Building custom user interfaces\n- Improvements of web app performance\n- Cross-browser testing and bottleneck detection\n- Taking care of old browsers [UC Browser, Edge]\n\n Project #1 - Web app\n\n Team: 4+ \n\n Position: Frontend developer \n\n Tech stack:\n- Web components way\n- Typescript, React, Hooks, Next\n- JSX, CSS-in-JS, CSS modules, SCSS\n- ESLint, Prettier\n- Cross-browser responsive layout\n- Jira, Bitbucket\n\n Project #2 - Web app \n\n Team: 7+ \n\n Position: CSS dev/Frontend dev \n\n Tech stack: \n- JS/TS, React/JSX, Hooks \n- CSS-in-JS, SCSS, CSS animations\n- Cross-browser responsive layout\n- ESLint, Prettier\n- Jira, Bitbucket",
+      "summary": "We create web applications in the gaming industry.\n\n- Building websites and developing new tools\n- Building custom user interfaces\n- Improvements of web app performance\n- Cross-browser testing and bottleneck detection\n\n Project: Web app\n\n Team: 10+ \n\n Position: Frontend developer \n\n Tech stack:\n- Web components way\n- Typescript, React, Hooks, Nextjs, JSX\n- CSS-in-JS, CSS modules, SCSS, Material UI\n- ESLint, Prettier, Jest\n- Cross-browser responsive layout\n- Jira, Bitbucket, Figma",
       "url": "https://www.skywindgroup.com/",
       "highlights": [
         "Participated in the development of the project from scratch in another country",
