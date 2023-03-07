@@ -217,6 +217,7 @@ a[download] {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 0.5em
 }
 
 .spaced-list:first-child::before {
@@ -229,6 +230,11 @@ a[download] {
 
 .spaced-list > :nth-child(2) {
   order: 2;
+  word-break: break-word;
+}
+
+.spaced-list time {
+  white-space: nowrap;
 }
 
 .tag-list {
