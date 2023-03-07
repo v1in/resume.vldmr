@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
     "canonical": "https://raw.githubusercontent.com/v1in/resume.vldmr/master/resume.json",
-    "lastModified": "2023-03-07T14:34:59.515Z"
+    "lastModified": "2023-03-07T15:47:27.255Z"
   },
   "basics": {
     "name": "Vladimir Volokhin",
@@ -63,12 +63,12 @@
       "startDate": "2018-09-01",
       "endDate": "2019-07-01",
       "position": "Co-Founder / Developer",
-      "url": "https://lionsgroup.design/",
+      "url": "https://lionsgroup.netlify.app/",
       "highlights": [
         "I brought the site to the top 3 by request - lionsgroup",
         "Achieved full site loading speed of 0.6s"
       ],
-      "summary": "Worked on company projects, mainly website development (from UI/UX prototype to deployment) \n- Created and optimized of the main site - [lionsgroup.design](https://lionsgroup.design) \n- Hosting and deployment on Netlify \n- Web app performance and improvements"
+      "summary": "Worked on company projects, mainly website development (from UI/UX prototype to deployment) \n- Created and optimized of the main site - [lionsgroup.design](https://lionsgroup.netlify.app/) \n- Hosting and deployment on Netlify \n- Web app performance and improvements"
     }
   ],
   "volunteer": [],
