@@ -163,6 +163,22 @@ svg {
   padding: 2em 0;
 }
 
+.footer {
+  padding-top: 2em;
+  display: inherit;
+  grid-column: content;
+  color: var(--color-secondary);
+  text-align: right;
+}
+
+.small {
+  font-size: calc(var(--scale0) * 0.6);
+}
+
+.monospaced {
+  font-family: monospace;
+}
+
 .name {
   display: flex;
   align-items: center;
