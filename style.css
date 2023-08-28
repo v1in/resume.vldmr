@@ -166,9 +166,9 @@ svg {
 .footer {
   padding-top: 2em;
   display: inherit;
-  grid-column: content;
+  grid-column: main;
   color: var(--color-secondary);
-  text-align: right;
+  gap: 1em;
 }
 
 .small {
