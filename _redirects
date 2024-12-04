@@ -2,5 +2,4 @@
 https://resume-vldmr.netlify.app/* https://resume.vldmr.website/:splat 301!
 
 # Redirects to proxy all analytics traffic
-/bee.js  https://cdn.splitbee.io/sb.js  200
-/_hive/*  https://hive.splitbee.io/:splat  200
+/op.js  https://openpanel.dev/op1.js  200

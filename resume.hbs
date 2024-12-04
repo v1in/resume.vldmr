@@ -7,7 +7,16 @@
     {{/resume.basics}}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
-    <script async data-api="/_hive" src="/bee.js"></script>
+    <script>
+      window.op = window.op||function(...args){(window.op.q=window.op.q||[]).push(args);}
+      window.op('init', {
+        clientId: '4ab276ce-bf48-4125-8cb5-b02843ecd7f9',
+        trackScreenViews: true,
+        trackOutgoingLinks: true,
+        trackAttributes: true,
+      })
+    </script>
+    <script src="/op.js" defer async></script>
     <style>{{{css}}}</style>
   </head>
   <body>

@@ -1,6 +1,6 @@
 {
   "name": "resume-vldmr",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Vladimir Vo's resume",
   "homepage": "https://github.com/v1in/resume.vldmr",
   "bugs": {
@@ -31,7 +31,7 @@
     "build:html": "mkdir -p public && cat resume.json | ./bin/cli.js > public/index.html",
     "build:assets": "cp _redirects avatar.png favicon.ico public",
     "export:pdf": "puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format A4 print public/index.html public/resume.pdf",
-    "build": "npm run cleanup && npm-run-all build:* && npm run export:pdf && npm run postbuild:html",
+    "build": "npm run cleanup && npm-run-all build:* && npm run export:pdf && npm run postbuild:html && echo 'Build successful!' ✨",
     "format": "prettier --ignore-path .gitignore --write .",
     "cleanup": "rm -rf public",
     "postinstall": "husky install",
