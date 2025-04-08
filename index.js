@@ -1,9 +1,13 @@
-const fs = require('fs')
-const path = require('path')
-const { icons } = require('feather-icons')
-const Handlebars = require('handlebars')
-const micromark = require('micromark')
-const striptags = require('striptags')
+import fs from 'fs'
+import path from 'path'
+import { icons } from 'feather-icons'
+import Handlebars from 'handlebars'
+import micromark from 'micromark'
+import striptags from 'striptags'
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url) // get the resolved path to the file
+const __dirname = path.dirname(__filename) // get the name of the directory
 
 const extname = '.hbs'
 const partialsDir = path.join(__dirname, 'partials')
@@ -54,9 +58,9 @@ Handlebars.registerHelper('markdown', doc => micromark(doc))
 
 Handlebars.registerHelper('stripTags', html => striptags(html))
 
-exports.pdfRenderOptions = { mediaType: 'print' }
+export const pdfRenderOptions = { mediaType: 'print' }
 
-exports.render = resume => {
+export const Render = resume => {
   const template = fs.readFileSync(path.join(__dirname, 'resume.hbs'), 'utf-8')
   const css = fs.readFileSync(path.join(__dirname, 'style.css'), 'utf-8')
 

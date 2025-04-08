@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-const fs = require('fs')
-const { render } = require('..')
+import fs from 'fs'
+import { Render } from '../index.js'
 
 const resume = JSON.parse(fs.readFileSync(process.stdin.fd, 'utf-8'))
-const html = render(resume)
+const html = Render(resume)
 
 process.stdout.write(html)

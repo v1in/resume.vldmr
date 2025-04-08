@@ -9,6 +9,7 @@ Based on [jsonresume-theme-even](https://github.com/rbardini/jsonresume-theme-ev
 - Add avatar 🧔🏻
 - Add PDF export 📄
 - Add direct link to download the PDF 🔗
+- Add development mode for online testing 👷
 
 [View demo →](https://resume-vldmr.netlify.app/)
 
@@ -53,6 +54,18 @@ I use for this Puppeteer-CLI to make a PDF from my HTML resume
 ```console
 npm run build:html && npm run export:pdf
 ```
+
+## Development mode
+
+You can use development mode to test in a browser how your СV will display online
+
+```console
+npm run dev
+```
+
+And then open `http://localhost:3000` in your browser.
+
+Once you change something in the json, it will be triggered in the browser
 
 ## License
 

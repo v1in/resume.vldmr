@@ -1,6 +1,7 @@
 {
   "name": "resume-vldmr",
   "version": "0.4.0",
+  "type": "module",
   "description": "Vladimir Vo's resume",
   "homepage": "https://github.com/v1in/resume.vldmr",
   "bugs": {
@@ -28,6 +29,7 @@
     "curriculum-vitae"
   ],
   "scripts": {
+    "dev": "nodemon server.js",
     "build:html": "mkdir -p public && cat resume.json | ./bin/cli.js > public/index.html",
     "build:assets": "cp _redirects avatar.png favicon.ico public",
     "export:pdf": "puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format A4 print public/index.html public/resume.pdf",
@@ -47,13 +49,16 @@
     "striptags": "^3.2.0"
   },
   "devDependencies": {
+    "@hono/node-server": "^1.14.0",
     "eslint": "7.32.0",
+    "hono": "^4.7.5",
     "html-minifier": "4.0.0",
     "husky": "^7.0.1",
     "lint-staged": "11.1.1",
+    "nodemon": "^3.1.9",
     "npm-run-all": "4.1.5",
     "prettier": "2.3.2",
-    "puppeteer-cli": "1.5.1",
+    "puppeteer-cli": "1.7.0",
     "resume-schema": "1.0.0"
   }
 }
