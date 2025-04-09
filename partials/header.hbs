@@ -38,9 +38,11 @@
       </li>
       {{/email}}
       {{#phone}}
-      <li>
+      <li class="collapse">
         {{{icon 'phone'}}}
-        <a data-track="Phone" href="tel:{{formatPhone .}}">{{.}}</a>
+        <a data-track="Phone" href="tel:{{formatPhone .}}" class="print-on">{{.}}</a>
+        <input id='t' type='checkbox' class="no-print" data-track="Show Phone" />
+        <label for='t' class="no-print">show</label>
       </li>
       {{/phone}}
       {{#url}}
