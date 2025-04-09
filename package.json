@@ -28,37 +28,41 @@
     "resume",
     "curriculum-vitae"
   ],
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "nodemon -e hbs,json,js server.js",
     "build:html": "mkdir -p public && cat resume.json | ./bin/cli.js > public/index.html",
     "build:assets": "cp _redirects avatar.png favicon.ico public",
     "export:pdf": "puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format A4 print public/index.html public/resume.pdf",
     "build": "npm run cleanup && npm-run-all build:* && npm run export:pdf && npm run postbuild:html && echo 'Build successful!' ✨",
-    "format": "prettier --ignore-path .gitignore --write .",
+    "format": "prettier --write .",
     "cleanup": "rm -rf public",
     "postinstall": "husky install",
     "postbuild:html": "html-minifier public/index.html -o public/index.html --collapse-whitespace --minify-css",
-    "test": "resumed validate"
+    "test": "resumed validate",
+    "prepare": "husky"
   },
   "dependencies": {
-    "feather-icons": "^4.28.0",
-    "handlebars": "^4.7.7",
+    "feather-icons": "^4.29.2",
+    "handlebars": "^4.7.8",
     "json": "^11.0.0",
-    "micromark": "^2.11.0",
-    "resumed": "^1.0.0",
+    "micromark": "^4.0.2",
+    "resumed": "^4.1.0",
     "striptags": "^3.2.0"
   },
   "devDependencies": {
     "@hono/node-server": "^1.14.0",
-    "eslint": "7.32.0",
-    "hono": "^4.7.5",
+    "eslint": "9.24.0",
+    "hono": "^4.7.6",
     "html-minifier": "4.0.0",
-    "husky": "^7.0.1",
-    "lint-staged": "11.1.1",
+    "husky": "^9.1.7",
+    "lint-staged": "15.5.0",
     "nodemon": "^3.1.9",
     "npm-run-all": "4.1.5",
-    "prettier": "2.3.2",
+    "prettier": "3.5.3",
     "puppeteer-cli": "1.7.0",
-    "resume-schema": "1.0.0"
+    "resume-schema": "1.0.1"
   }
 }

@@ -11,7 +11,7 @@ Based on [jsonresume-theme-even](https://github.com/rbardini/jsonresume-theme-ev
 - Add direct link to download the PDF 🔗
 - Add development mode for online testing 👷
 
-[View demo →](https://resume-vldmr.netlify.app/)
+[View demo →](https://resume.vldmr.website/)
 
 ## Files for changes
 

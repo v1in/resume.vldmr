@@ -1,3 +1,6 @@
 package.json
 node_modules
 public
+partials
+.gitignore
+resume.hbs

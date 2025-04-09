@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import { icons } from 'feather-icons'
 import Handlebars from 'handlebars'
-import micromark from 'micromark'
+import { micromark } from 'micromark'
 import striptags from 'striptags'
 import { fileURLToPath } from 'url'
 
