@@ -42,38 +42,6 @@ html {
   font-size: 14px;
 }
 
-.collapse {
-  display: flex;
-  justify-content: flex-start;
-  line-height: 1;
-  align-items: center;
-  a {
-    display: none;
-  }
-  input {
-    display: none;
-    &:checked + label {
-      /* prevent click second time */
-      pointer-events: none;
-      user-select: none;
-      opacity: 0.5;
-    }
-  }
-  /* show button */
-  label {
-    color: var(--color-secondary);
-    border: 1px solid var(--color-secondary);
-    border-radius: 4px;
-    line-height: 1;
-    padding: 1px 4px;
-    cursor: pointer;
-  }
-  &:has(input:checked) a {
-    display: flex;
-    margin-right: 4px;
-  }
-}
-
 body {
   background: var(--color-background);
   color: var(--color-primary);
@@ -298,6 +266,43 @@ a[download] {
   background: var(--color-muted);
   margin: 0 0.2em 0.2em 0;
   padding: 0.2em 0.6em;
+}
+
+.collapse {
+  display: flex;
+  justify-content: flex-start;
+  line-height: 1;
+  align-items: center;
+}
+
+.collapse a {
+  display: none;
+}
+
+.collapse input {
+  display: none;
+}
+
+/* prevent click second time */
+.collapse input:checked + label {
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.5;
+}
+
+/* show button */
+.collapse label {
+  color: var(--color-secondary);
+  border: 1px solid var(--color-secondary);
+  border-radius: 4px;
+  line-height: 1;
+  padding: 1px 4px;
+  cursor: pointer;
+}
+
+.collapse:has(input:checked) a {
+  display: flex;
+  margin-right: 4px;
 }
 
 @media print, (min-width: 48em) {
