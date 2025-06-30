@@ -3,7 +3,7 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/v1in/resume.vldmr/master/resume.json",
     "messageGDPR": "Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).",
-    "lastModified": "2025-04-08T10:38:06.532Z"
+    "lastModified": "2025-06-30T16:43:58.854Z"
   },
   "basics": {
     "name": "Vladimir Volokhin",
@@ -32,11 +32,19 @@
   },
   "work": [
     {
+      "name": "Winvia",
+      "position": "Frontend Developer",
+      "startDate": "2024-04-01",
+      "summary": "Development and enhancement of the web platform.\n\nPowering exceptional customer experience, our 360 Platform integrates management, engagement, and retention capabilities, driving personalized interactions, smart incentives, and data-driven insights",
+      "url": "https://winvia.co.uk/"
+    },
+    {
       "name": "Skywind Group",
       "position": "Frontend Developer",
       "startDate": "2020-09-30",
+      "endDate": "2024-04-01",
       "summary": "We create web applications in the gaming industry.\n\n- Building websites and developing new tools\n- Building custom user interfaces\n- Improvements of web app performance\n- Cross-browser testing and bottleneck detection\n\n Project: Web app\n\n Team: 10+ \n\n Position: Frontend developer \n\n Tech stack:\n- Web components way\n- Typescript, React, Hooks, Nextjs, JSX\n- CSS-in-JS, CSS modules, SCSS, Material UI\n- ESLint, Prettier, Jest\n- Cross-browser responsive layout\n- Jira, Bitbucket, Figma",
-      "url": "https://www.skywindgroup.com/",
+      "url": "https://skywindgroup.com/",
       "highlights": [
         "Participated in the development of the project from scratch in another country",
         "On one of the projects created a new redesign, which increased the number of new customers"
@@ -46,8 +54,9 @@
       "name": "Skywind Group",
       "position": "HTML dev | Junior Frontend Developer",
       "startDate": "2019-04-15",
+      "endDate": "2024-04-01",
       "summary": "Working on company projects. Development of new and support of existing corporate sites.\n\n Tech stack: \n- Valid HTML/CSS with BEM methodology \n- Cross-browser responsive layout \n- CSS-in-JS, SCSS \n- CSS animations \n- JS/Gulp \n- Git/Bitbucket \n- Photoshop/Figma/XD",
-      "url": "https://www.skywindgroup.com/",
+      "url": "https://skywindgroup.com/",
       "highlights": ["I built a company website from scratch"]
     },
     {
